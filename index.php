@@ -267,12 +267,6 @@
 </head>
 
 <body>
-  <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" style="display:none">
-    <li itemprop="name"><a itemprop="url" href="https://www.bbb-883.com/Lobby/LiveSport">스포츠실시간</a></li>
-    <li itemprop="name"><a itemprop="url" href="https://www.bbb-883.com/Lobby/Live">카지노</a></li>
-    <li itemprop="name"><a itemprop="url" href="https://www.bbb-883.com/Lobby/Game">슬롯머신</a></li>
-    <li itemprop="name"><a itemprop="url" href="https://www.bbb-883.com/Promotion">이벤트</a></li>
-  </ul>
   <div id="app" data-v-app="" class="webp">
     <div>
       <div data-v-79613b41="" class="allContent">

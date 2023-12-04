@@ -18875,10 +18875,17 @@ iframe {
     display: block
 }
 
+.LeftContent::-webkit-scrollbar {
+    display: none !important;
+}
+.LeftContent::-webkit-scrollbar-thumb {
+    height: 0 !important;
+}
 .scrollFrame {
     width: 100%;
     margin: 0 auto;
-    overflow-y: auto
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .scrollFrame::-webkit-scrollbar-track {
