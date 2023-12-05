@@ -800,6 +800,7 @@
       </div><!----><!---->
     </div>
     <div class="modals-container"></div><!----><!---->
+    <div id="login-container"></div>
     <div data-v-2836fdb5="" data-v-5645eacc="" class="vfm vfm--inset vfm--fixed" style="z-index: 1000; display: none;">
       <!--v-if-->
       <div data-v-2836fdb5=""

@@ -18955,16 +18955,16 @@ iframe {
 }
 
 .LeftContent .leftMenu ul li.menu02 a span {
-    margin-right: 24px
+    margin-right: 27px
 }
 
 .LeftContent .leftMenu ul li.menu03 a span {
-    margin-right: 23px
+    margin-right: 27px
 }
 
 .LeftContent .leftMenu ul li.menu04 a span,
 .LeftContent .leftMenu ul li.menu05 a span {
-    margin-right: 24 px
+    margin-right: 26px
 }
 
 .LeftContent .leftMenu ul li.menu06 a span {
@@ -19063,27 +19063,27 @@ iframe {
 }
 
 .LeftContent .leftMenu ul li.menu02 a .hovePic {
-    top: -7px;
-    left: -19px
+    top: -5px;
+    left: -12px
 }
 
 .LeftContent .leftMenu ul li.menu03 a .hovePic {
     top: -4px;
-    left: -13px
+    left: -12px
 }
 
 .LeftContent .leftMenu ul li.menu04 a .hovePic {
-    top: -3px;
-    left: -12px
+    top: -5px;
+    left: -18px
 }
 
 .LeftContent .leftMenu ul li.menu05 a .hovePic {
-    top: 1px;
-    left: -12px
+    top: -4px;
+    left: -14px
 }
 
 .LeftContent .leftMenu ul li.menu06 a .hovePic {
-    top: -4px;
+    top: 2px;
     left: -14px
 }
 

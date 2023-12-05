@@ -22,6 +22,15 @@ $(document).ready(function () {
         var classNumber = $(this).attr('class').match(/\d+/)[0];
             $('.slotLeft').hide();
             $('.slotLeft.slot' + classNumber).toggle();
-      });
+    });
+
+    $('#loginBtn').on('click', function() {
+        $('#login-container').load('/inc/login_pop.php', function() {
+            $('#closePop').on('click', function() {
+                $('#login-container').empty();
+            });
+        });
+    });
+    
 });
 

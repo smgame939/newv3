@@ -54,7 +54,7 @@ $pgName = pathinfo($currentPage, PATHINFO_FILENAME);
                         alt=""></div>
                     <div class="txt">가상게임</div>
                   </a></li>
-                <li class="menu07"><a href="javascript: void(0)" class="<?php echo $pgName === 'event' ? 'active' : '' ?>" aria-label="이벤트"><span
+                <li class="menu07"><a href="event.php" class="<?php echo $pgName === 'event' ? 'active' : '' ?>" aria-label="이벤트"><span
                       class="icon-iiconSpeaker"></span>
                     <div class="hovePic"><img
                         src="/image/menu_event.png"
