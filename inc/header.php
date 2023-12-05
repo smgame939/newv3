@@ -42,7 +42,7 @@
             <div data-v-5645eacc="" class="rightZone">
                 <a id="loginBtn" data-v-5645eacc="" class="btnN loginIcon redB"><span data-v-5645eacc="" class="icon-icconlogin"></span>로그인</a>
                 <a id="regBtn" data-v-5645eacc="" class="btnN signupIcon blueB"><span data-v-5645eacc="" class="icon-icconReg"></span>회원가입</a>
-                <a data-v-5645eacc="" class="btn_p goUnmember"><span data-v-5645eacc="" class="icon-icconMemberAsk"></span>비회원 문의</a>
+                <a id="contactBtn" data-v-5645eacc="" class="btn_p goUnmember"><span data-v-5645eacc="" class="icon-icconMemberAsk"></span>비회원 문의</a>
             </div>
             <!---->
         </div>

@@ -2736,7 +2736,7 @@ a.icon-setting {
     display: flex;
     align-items: center;
     padding-left: 16px;
-    background: url(../images/sport/cup/titleBG.jpg) no-repeat right;
+    /* background: url(../images/sport/cup/titleBG.jpg) no-repeat right; */
     border: 1px solid var(--bdColorSport_012);
     border-bottom: 1px solid var(--bgColorSport_031)
 }
