@@ -276,39 +276,7 @@
         <div data-v-79613b41="" class="rightContent homePage">
           <div data-v-79613b41="" class="contents">
             <div data-v-79613b41="" class="main_content_continer">
-              <div data-v-5645eacc="" data-v-79613b41="">
-                <div data-v-5645eacc="" class="header headerSuccess">
-                  <div data-v-5645eacc="" class="headerWrapper v_deep_header">
-                    <div data-v-95e6c9ff="" data-v-5645eacc="" class="home_notice">
-                      <div data-v-95e6c9ff="" class="notice_wrap">
-                        <div data-v-95e6c9ff="" class="noticeIcon"><img data-v-95e6c9ff=""
-                            src="./image/megaPhone.svg" alt=""></div>
-                        <div data-v-95e6c9ff="" class="notice_text" style="width: 1146px;">
-                          <div data-v-95e6c9ff="" class="vue3-marquee horizontal"
-                            style="--duration: 8s; --delay: 0s; --direction: normal; --pauseOnHover: running; --pauseOnClick: running; --pauseAnimation: running; --loops: infinite; --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0); --gradient-length: 200px; --min-width: 100%; --min-height: auto; --orientation: scrollX;">
-                            <div class="transparent-overlay" aria-hidden="true"></div><!---->
-                            <div class="marquee"><span data-v-95e6c9ff="">
-                                <p>※필 독※ 타계좌, 펌뱅킹(토스, 핀크, 카카오페이), ATM 이용시 무조건 반환되며(영수증첨부필수), 매입금시 공지된 계좌로 선입금 후 충전
-                                  신청바랍니다.</p>
-                              </span></div>
-                            <div class="marquee" aria-hidden="true"><span data-v-95e6c9ff="">
-                                <p>※필 독※ 타계좌, 펌뱅킹(토스, 핀크, 카카오페이), ATM 이용시 무조건 반환되며(영수증첨부필수), 매입금시 공지된 계좌로 선입금 후 충전
-                                  신청바랍니다.</p>
-                              </span></div>
-                          </div><span data-v-95e6c9ff=""
-                            class="calcDuration">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※필
-                            독※ 타계좌, 펌뱅킹(토스, 핀크, 카카오페이), ATM 이용시 무조건 반환되며(영수증첨부필수), 매입금시 공지된 계좌로 선입금 후 충전 신청바랍니다.</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div data-v-5645eacc="" class="rightZone"><a data-v-5645eacc="" class="btnN loginIcon redB"><span
-                          data-v-5645eacc="" class="icon-icconlogin"></span>로그인</a><a data-v-5645eacc=""
-                        class="btnN signupIcon blueB"><span data-v-5645eacc="" class="icon-icconReg"></span>회원가입</a><a
-                        data-v-5645eacc="" class="btn_p goUnmember"><span data-v-5645eacc=""
-                          class="icon-icconMemberAsk"></span>비회원 문의</a></div><!---->
-                  </div>
-                </div>
-              </div>
+              <?php include('inc/header.php'); ?>
               <div data-v-8c6ca05e="" class="banner" style="height: auto; opacity: 1;">
                 <div class="swiper banner_swiper">
                   <div class="swiper-wrapper">
@@ -773,145 +741,7 @@
                   </div>
                 </div>
               </div>
-              <div data-v-0106dd1f="" data-v-79613b41="" class="footer footer_notice">
-                <div data-v-0106dd1f="" class="footerWrapper">
-                  <div data-v-0106dd1f="" class="topZone">
-                    <div data-v-0106dd1f="" class="leftZone">
-                      <div class="logos"><img src="./assets/image/logo_smgame.svg" alt=""></div>
-                      <div class="txt"> COPYRIGHT 2023, SMGame. ALL RIGHTS RESERVED. GAMBLING CAN BE ADDICTIVE, PLEASE
-                        PLAY RESPONSIBLY. FOR MORE INFORMATION ON SUPPORT TOOLS, PLEASE VISIT OUR RESPONSIBLE GAMBLING
-                        PAGE<br>PAYMENT SUPPORTED BY </div>
-                      <div class="chatZone partner"></div>
-                    </div>
-                    <div data-v-0106dd1f="" class="footRframe">
-                      <div data-v-0106dd1f="" class="centerZone">
-                        <div class="title">SMGame <span>HELP</span></div>
-                        <div class="content">
-                          <ul>
-                            <li data-v-c4dc7f77="" class="iconANI"><a data-v-c4dc7f77=""><span data-v-c4dc7f77=""
-                                  class="icon-iiconService icon-icconService01"></span>
-                                <div data-v-c4dc7f77="" class="txt">고객센터</div>
-                              </a></li><!---->
-                            <li data-v-c4dc7f77="" class="iconANI"><a data-v-c4dc7f77=""><span data-v-c4dc7f77=""
-                                  class="icon-icconCooperation"></span>
-                                <div data-v-c4dc7f77="" class="txt">파트너 제휴</div>
-                              </a></li>
-                            <li data-v-c4dc7f77="" class="iconANI iconTG"><a data-v-c4dc7f77=""><span data-v-c4dc7f77=""
-                                  class="icon-icconTELEGRAM"></span>
-                                <div data-v-c4dc7f77="" class="txt">공식채널 텔레그램</div>
-                              </a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div data-v-0106dd1f="" class="rightZone01">
-                        <div data-v-0106dd1f="" class="links">
-                          <div class="title">회사소개</div>
-                          <div class="content">
-                            <div class="left01"><a>회사소개</a></div>
-                          </div>
-                        </div>
-                        <div data-v-0106dd1f="" class="links">
-                          <div class="title">베팅규정</div>
-                          <div class="content">
-                            <div class="left01"><a>카지노</a><a>슬롯</a><a>스포츠실시간</a><a>스포츠</a><a>미니게임</a><a>가상게임</a></div>
-                          </div>
-                        </div>
-                        <div data-v-0106dd1f="" class="links">
-                          <div class="title">게임소개</div>
-                          <div class="content">
-                            <div class="left01"><a>카지노</a><a>슬롯</a><a>스포츠실시간</a><a>스포츠</a><a>미니게임</a><a>가상게임</a></div>
-                          </div>
-                        </div>
-                        <div data-v-0106dd1f="" class="links">
-                          <div data-v-0106dd1f="" class="title">언어</div>
-                          <div data-v-0106dd1f="" class="content">
-                            <div data-v-0106dd1f="" class="left01"><a>한국어</a><a>简体中文</a><a>English</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-v-d6d9abdd="" data-v-0106dd1f="" class="downZone">
-                    <div data-v-d6d9abdd="" class="thirdLogo" width="100%">
-                      <div data-v-d6d9abdd="" class="footerLogo"
-                        style="transform: translate3d(-1147px, 0px, 0px); transition: transform 250ms ease 0s;">
-                        <div data-v-d6d9abdd="" class="third02"><img data-v-d6d9abdd=""
-                            src="/image/ag_logo_color.png"
-                            alt="Logo 0"></div>
-                        <div data-v-d6d9abdd="" class="third03"><img data-v-d6d9abdd=""
-                            src="/image/microgaming_logo_color.png"
-                            alt="Logo 1"></div>
-                        <div data-v-d6d9abdd="" class="third08"><img data-v-d6d9abdd=""
-                            src="/image/pragmatic_logo_color.png"
-                            alt="Logo 2"></div>
-                        <div data-v-d6d9abdd="" class="third09"><img data-v-d6d9abdd=""
-                            src="/image/pgsoft_logo_color.png"
-                            alt="Logo 3"></div>
-                        <div data-v-d6d9abdd="" class="third14"><img data-v-d6d9abdd=""
-                            src="/image/bigtime_logo_color.png"
-                            alt="Logo 4"></div>
-                        <div data-v-d6d9abdd="" class="third07"><img data-v-d6d9abdd=""
-                            src="/image/habanero_logo_color.png"
-                            alt="Logo 5"></div>
-                        <div data-v-d6d9abdd="" class="third12"><img data-v-d6d9abdd=""
-                            src="/image/betradar_logo_color.png"
-                            alt="Logo 6"></div>
-                        <div data-v-d6d9abdd="" class="third10"><img data-v-d6d9abdd=""
-                            src="/image/ameba_logo_color.png"
-                            alt="Logo 7"></div>
-                        <div data-v-d6d9abdd="" class="third04"><img data-v-d6d9abdd=""
-                            src="/image/wm_logo_color.png"
-                            alt="Logo 8"></div>
-                        <div data-v-d6d9abdd="" class="third05"><img data-v-d6d9abdd=""
-                            src="/image/og_logo_color.png"
-                            alt="Logo 9"></div>
-                        <div data-v-d6d9abdd="" class="third06"><img data-v-d6d9abdd=""
-                            src="/image/allbet_logo_color.png"
-                            alt="Logo 10"></div>
-                        <div data-v-d6d9abdd="" class="third13"><img data-v-d6d9abdd=""
-                            src="/image/dreamgaming_logo_color.png"
-                            alt="Logo 11"></div>
-                        <div data-v-d6d9abdd="" class="third02"><img data-v-d6d9abdd=""
-                            src="/image/ag_logo_color.png"
-                            alt="Logo 12"></div>
-                        <div data-v-d6d9abdd="" class="third03"><img data-v-d6d9abdd=""
-                            src="/image/microgaming_logo_color.png"
-                            alt="Logo 13"></div>
-                        <div data-v-d6d9abdd="" class="third08"><img data-v-d6d9abdd=""
-                            src="/image/pragmatic_logo_color.png"
-                            alt="Logo 14"></div>
-                        <div data-v-d6d9abdd="" class="third09"><img data-v-d6d9abdd=""
-                            src="/image/pgsoft_logo_color.png"
-                            alt="Logo 15"></div>
-                        <div data-v-d6d9abdd="" class="third14"><img data-v-d6d9abdd=""
-                            src="/image/bigtime_logo_color.png"
-                            alt="Logo 16"></div>
-                        <div data-v-d6d9abdd="" class="third07"><img data-v-d6d9abdd=""
-                            src="/image/habanero_logo_color.png"
-                            alt="Logo 17"></div>
-                        <div data-v-d6d9abdd="" class="third12"><img data-v-d6d9abdd=""
-                            src="/image/betradar_logo_color.png"
-                            alt="Logo 18"></div>
-                        <div data-v-d6d9abdd="" class="third10"><img data-v-d6d9abdd=""
-                            src="/image/ameba_logo_color.png"
-                            alt="Logo 19"></div>
-                        <div data-v-d6d9abdd="" class="third04"><img data-v-d6d9abdd=""
-                            src="/image/wm_logo_color.png"
-                            alt="Logo 20"></div>
-                        <div data-v-d6d9abdd="" class="third05"><img data-v-d6d9abdd=""
-                            src="/image/og_logo_color.png"
-                            alt="Logo 21"></div>
-                        <div data-v-d6d9abdd="" class="third06"><img data-v-d6d9abdd=""
-                            src="/image/allbet_logo_color.png"
-                            alt="Logo 22"></div>
-                        <div data-v-d6d9abdd="" class="third13"><img data-v-d6d9abdd=""
-                            src="/image/dreamgaming_logo_color.png"
-                            alt="Logo 23"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <?php include('inc/footer.php'); ?>
             </div>
           </div>
         </div>
@@ -1029,7 +859,7 @@
   <script src="./js/swiper-bundle.js"></script>
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="./js/newv3.js"></script>
+  <script src="js/newv3.js"></script>
   
 </body>
 

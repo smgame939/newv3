@@ -1,31 +1,38 @@
+<?php
+// Get the current page name with extension
+$currentPage = basename($_SERVER['PHP_SELF']);
+
+// Remove the dot extension
+$pgName = pathinfo($currentPage, PATHINFO_FILENAME);
+?>
 <!-- Sidemenu -->
 <div data-v-79613b41="" class="LeftContent">
-          <div data-v-79613b41="" class="logo"><a data-v-79613b41="" href="javascript: void(0)"></a></div>
+          <div data-v-79613b41="" class="logo"><a data-v-79613b41="" href="index.php"></a></div>
           <div data-v-79613b41="" class="scrollFrame">
             <div class="leftMenu">
               <ul>
-              <li class="menu01"><a href="javascript: void(0)" class="" aria-label="스포츠실시간"><span
+              <li class="menu01"><a href="sports.php" class="<?php echo $pgName === 'sports' ? 'active' : '' ?>" aria-label="스포츠실시간"><span
                       class="icon-icconSPORT"></span>
                     <div class="hovePic"><img
                         src="/image/menu_sport.png"
                         alt=""></div>
                     <div class="txt">스포츠실시간</div>
                   </a></li>
-                <li class="menu02"><a href="javascript: void(0)" class="" aria-label="스포츠"><span
+                <li class="menu02"><a href="live_sports.php" class="<?php echo $pgName === 'live_sports' ? 'active' : '' ?>" aria-label="스포츠"><span
                       class="icon-icconSPORT"></span>
                     <div class="hovePic"><img
                         src="/image/menu_sport.png"
                         alt=""></div>
                     <div class="txt">스포츠</div>
                   </a></li>
-                <li class="menu03"><a href="javascript: void(0)" class="" aria-label="카지노"><span
+                <li class="menu03"><a href="live_casino.php" class="<?php echo $pgName === 'live_casino' ? 'active' : '' ?>" aria-label="카지노"><span
                       class="icon-iiconDice"></span>
                     <div class="hovePic"><img
                         src="/image/menu_casino.png"
                         alt=""></div>
                     <div class="txt">카지노</div>
                   </a></li>
-                <li class="menu04"><a href="javascript: void(0)" class="" aria-label="슬롯"><span
+                <li class="menu04"><a href="javascript: void(0)" class="<?php echo $pgName === 'slot' ? 'active' : '' ?>"  aria-label="슬롯"><span
                       class="icon-iiconSlote"></span>
                     <div class="hovePic"><img
                         src="/image/menu_slot.png"
@@ -33,31 +40,26 @@
                     <div class="txt">슬롯</div>
                   </a></li>
                
-                <li class="menu05"><a href="javascript: void(0)" class="" aria-label="미니게임"><span
+                <li class="menu05"><a href="mini_game.php" class="<?php echo $pgName === 'mini_game' ? 'active' : '' ?>" aria-label="미니게임"><span
                       class="icon-iiconGame"></span>
                     <div class="hovePic"><img
                         src="/image/menu_minigame.png"
                         alt=""></div>
                     <div class="txt">미니게임</div>
                   </a></li>
-                <li class="menu06"><a href="javascript: void(0)" class="" aria-label="가상게임"><span
+                <li class="menu06"><a href="virtual_sports.php" class="<?php echo $pgName === 'virtual_sports' ? 'active' : '' ?>" aria-label="가상게임"><span
                       class="icon-icconVR"></span>
                     <div class="hovePic"><img
                         src="/image/menu_virtual.png"
                         alt=""></div>
                     <div class="txt">가상게임</div>
                   </a></li>
-                <li class="menu07"><a href="javascript: void(0)" class="" aria-label="이벤트"><span
+                <li class="menu07"><a href="javascript: void(0)" class="<?php echo $pgName === 'event' ? 'active' : '' ?>" aria-label="이벤트"><span
                       class="icon-iiconSpeaker"></span>
                     <div class="hovePic"><img
                         src="/image/menu_event.png"
                         alt=""></div>
                     <div class="txt">이벤트</div>
-                  </a></li>
-                <li class="menu08" style="display: none;"><a href="javascript: void(0)" class="" aria-label="ad"><span
-                      class="icon-icconADLINK"></span>
-                    <div class="hovePic"><img src="./index_files/menu08_h-ba36e2dd.png" alt=""></div>
-                    <div class="txt">ad</div>
                   </a></li>
               </ul>
             </div>
@@ -132,3 +134,4 @@
           </div>
         </div>
         <!-- End Sidemenu -->
+        

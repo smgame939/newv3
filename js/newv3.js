@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+    
     var swiper = new Swiper(".banner_swiper", {
         spaceBetween: 30,
         centeredSlides: true,
@@ -22,3 +24,4 @@ $(document).ready(function () {
             $('.slotLeft.slot' + classNumber).toggle();
       });
 });
+
