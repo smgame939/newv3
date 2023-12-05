@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '003';
+  $ver = '004';
 
 ?>
 <!DOCTYPE html>
@@ -516,7 +516,7 @@
   </div>
   <script src="./js/swiper-bundle.js"></script>
   <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/newv3.js?v=<?php echo $ver; ?>"></script>
   
 </body>

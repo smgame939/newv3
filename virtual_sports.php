@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '003';
+  $ver = '004';
 
 ?>
 
@@ -234,7 +234,7 @@
         
     </div>
     <div id="ytCinemaMessage" style="display: none;"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/newv3.js?v=<?php echo $ver; ?>"></script>
 </body>
 
