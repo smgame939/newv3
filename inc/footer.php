@@ -1,16 +1,22 @@
+<?php
+include_once('class/mobiledetect.class.php');
+include('inc/versions.php');
+$mdetect = new MobileDetect();
+?>
+
 <div data-v-0106dd1f="" data-v-79613b41="" class="footer footer_notice">
     <div data-v-0106dd1f="" class="footerWrapper">
         <div data-v-0106dd1f="" class="topZone">
             <div data-v-0106dd1f="" class="leftZone">
-                <div class="logos"><img src="./assets/image/logo_smgame.svg" alt=""></div>
-                <div class="txt"> COPYRIGHT 2023, SMGame. ALL RIGHTS RESERVED. GAMBLING CAN BE ADDICTIVE, PLEASE
+                <div class="logos"><img src="./assets/image/logo_<?=$site_name?>.svg" alt=""></div>
+                <div class="txt"> COPYRIGHT 2023, <?=$site_name?>. ALL RIGHTS RESERVED. GAMBLING CAN BE ADDICTIVE, PLEASE
                     PLAY RESPONSIBLY. FOR MORE INFORMATION ON SUPPORT TOOLS, PLEASE VISIT OUR RESPONSIBLE GAMBLING
                     PAGE<br>PAYMENT SUPPORTED BY </div>
                 <div class="chatZone partner"></div>
             </div>
             <div data-v-0106dd1f="" class="footRframe">
                 <div data-v-0106dd1f="" class="centerZone">
-                    <div class="title">SMGame <span>HELP</span></div>
+                    <div class="title"><?=$site_name?> <span>HELP</span></div>
                     <div class="content">
                         <ul>
                             <li data-v-c4dc7f77="" class="iconANI"><a data-v-c4dc7f77=""><span data-v-c4dc7f77="" class="icon-iiconService icon-icconService01"></span>
@@ -54,8 +60,8 @@
             </div>
         </div>
         <div data-v-d6d9abdd="" data-v-0106dd1f="" class="downZone">
-            <div data-v-d6d9abdd="" class="thirdLogo" width="100%">
-                <div data-v-d6d9abdd="" class="footerLogo" style="transform: translate3d(-1147px, 0px, 0px); transition: transform 250ms ease 0s;">
+            <div data-v-d6d9abdd="" class="thirdLogo" width="100%" id="scrollContainer">
+                <div data-v-d6d9abdd="" class="footerLogo scrollContent">
                     <div data-v-d6d9abdd="" class="third02"><img data-v-d6d9abdd="" src="../image/ag_logo_color.png" alt="Logo 0"></div>
                     <div data-v-d6d9abdd="" class="third03"><img data-v-d6d9abdd="" src="../image/microgaming_logo_color.png" alt="Logo 1"></div>
                     <div data-v-d6d9abdd="" class="third08"><img data-v-d6d9abdd="" src="../image/pragmatic_logo_color.png" alt="Logo 2"></div>
@@ -83,5 +89,28 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div style="color:white">
+        <?php
+        /*
+        if($mdetect->isMobile()){ 
+            // Detect mobile/tablet  
+            if($mdetect->isTablet()){ 
+                echo 'Tablet Device Detected!<br/>'; 
+            }else{ 
+                echo 'Mobile Device Detected!<br/>'; 
+            } 
+             
+            // Detect platform 
+            if($mdetect->isiOS()){ 
+                echo 'IOS'; 
+            }elseif($mdetect->isAndroidOS()){ 
+                echo 'ANDROID'; 
+            } 
+        }else{ 
+            echo 'Desktop Detected!'; 
+        }
+    */
+        ?>
     </div>
 </div>

@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '004';
+  include('inc/versions.php');
 
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-  <title>SMGame Newtemplate V3</title>
+  <title><?=$site_name?> Newtemplate V3</title>
   <base href=".">
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -20,8 +20,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <link rel="stylesheet" href="css/newv3.css?v=<?php echo $ver; ?>">
-  <link rel="stylesheet" href="css/swiper-sm.css">
-    
+  <link rel="stylesheet" href="css/swiper-sm.css"> 
   <link rel="stylesheet" href="css/swiper-bundle.css" />
 
 </head>
@@ -71,7 +70,7 @@
                     <div data-v-8c6ca05e="" class="main_content_wrap avoidFlicker">
                       <div data-v-8c6ca05e="" class="casinoZone">
                         <div class="title"><span class="icon-iiconLogoB"></span>
-                          <div class="txt">SM <h3>GAME LIST</h3>
+                          <div class="txt"><?=$site_name?> <h3>GAME LIST</h3>
                           </div>
                         </div>
                         <div class="content">
@@ -323,7 +322,7 @@
                           <div class="centerZone">
                             <div class="upZone">
                               <h2>AG CASINO</h2>
-                              <p> Play the best games on the SMGame<br> SMGame에서 최고의 게임을 즐기십시오</p>
+                              <p> Play the best games on the <?=$site_name?><br> <?=$site_name?>에서 최고의 게임을 즐기십시오</p>
                             </div>
                             <div class="downZone"><a href="https://www.bbb-883.com/Promotion"
                                 class="btn goldLBtn">배팅규정</a><a href="https://www.bbb-883.com/Deposit"
@@ -338,7 +337,7 @@
                           <div class="centerZone">
                             <div class="upZone">
                               <h2>MG CASINO</h2>
-                              <p> Play the best games on the SMGame<br> SMGame에서 최고의 게임을 즐기십시오</p>
+                              <p> Play the best games on the <?=$site_name?><br> <?=$site_name?>에서 최고의 게임을 즐기십시오</p>
                             </div>
                             <div class="downZone"><a href="https://www.bbb-883.com/Promotion"
                                 class="btn goldLBtn">배팅규정</a><a href="https://www.bbb-883.com/Deposit"
@@ -353,7 +352,7 @@
                           <div class="centerZone">
                             <div class="upZone">
                               <h2>PP CASINO</h2>
-                              <p> Play the best games on the SMGame<br> SMGame에서 최고의 게임을 즐기십시오</p>
+                              <p> Play the best games on the <?=$site_name?><br> <?=$site_name?>에서 최고의 게임을 즐기십시오</p>
                             </div>
                             <div class="downZone"><a href="https://www.bbb-883.com/Promotion"
                                 class="btn goldLBtn">배팅규정</a><a href="https://www.bbb-883.com/Deposit"
@@ -368,7 +367,7 @@
                           <div class="centerZone">
                             <div class="upZone">
                               <h2>HABA CASINO</h2>
-                              <p> Play the best games on the SMGame<br> SMGame에서 최고의 게임을 즐기십시오</p>
+                              <p> Play the best games on the <?=$site_name?><br> <?=$site_name?>에서 최고의 게임을 즐기십시오</p>
                             </div>
                             <div class="downZone"><a href="https://www.bbb-883.com/Promotion"
                                 class="btn goldLBtn">배팅규정</a><a href="https://www.bbb-883.com/Deposit"
@@ -383,7 +382,7 @@
                           <div class="centerZone">
                             <div class="upZone">
                               <h2>PG CASINO</h2>
-                              <p> Play the best games on the SMGame<br> SMGame에서 최고의 게임을 즐기십시오</p>
+                              <p> Play the best games on the <?=$site_name?><br> <?=$site_name?>에서 최고의 게임을 즐기십시오</p>
                             </div>
                             <div class="downZone"><a href="https://www.bbb-883.com/Promotion"
                                 class="btn goldLBtn">배팅규정</a><a href="https://www.bbb-883.com/Deposit"
@@ -434,7 +433,7 @@
                       <div data-v-8c6ca05e="" class="infoZone">
                         <div data-v-8c6ca05e="" class="info01 wow fadeInUp animated"
                           style="visibility: ; animation-name: none;">
-                          <div class="title">SMGame<span>공지</span></div>
+                          <div class="title"><?=$site_name?><span>공지</span></div>
                           <div class="listFrame">
                             <div class="list">
                               <div class="listA">
@@ -458,7 +457,7 @@
                         </div>
                         <div data-v-8c6ca05e="" class="info01 wow fadeInUp animated"
                           style="visibility: ; animation-name: none;">
-                          <div class="title">SMGame<span>FAQ</span></div>
+                          <div class="title"><?=$site_name?><span>FAQ</span></div>
                           <div class="listFrame">
                             <div class="list">
                               <div class="listA">
@@ -474,7 +473,7 @@
                         </div>
                         <div data-v-8c6ca05e="" class="info01 wow fadeInUp animated"
                           style="visibility: ; animation-name: none;">
-                          <div class="title">SMGame<span>이벤트</span></div>
+                          <div class="title"><?=$site_name?><span>이벤트</span></div>
                           <div class="listFrame">
                             <div class="list">
                               <div class="listA">
@@ -514,9 +513,9 @@
     <div id="login-container"></div>
     
   </div>
-  <script src="./js/swiper-bundle.js"></script>
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>
+  <script src="js/swiper-bundle.js"></script>
   <script src="js/newv3.js?v=<?php echo $ver; ?>"></script>
   
 </body>

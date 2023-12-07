@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '004';
+  include('inc/versions.php');
 
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-    <title>SMGame Newtemplate V3</title>
+    <title>SMGame Newtemplate V3 :: Events</title>
     <base href=".">
     <meta name="renderer" content="webkit">
     <meta name="force-rendering" content="webkit">
@@ -251,7 +251,7 @@
                             <div data-v-2836fdb5-s="" class="titlePwrapper">
                                 <div data-v-2836fdb5-s="" class="leftZone">
                                     <span data-v-2836fdb5-s="" class="icon-iiconLogoB"></span>
-                                    <h4 data-v-2836fdb5-s="">SMGame</h4>
+                                    <h4 data-v-2836fdb5-s=""><?=$site_name?></h4>
                                     <span data-v-2836fdb5-s="">비회원 문의</span>
                                 </div>
                                 <div data-v-2836fdb5-s="" class="line"></div>

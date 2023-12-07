@@ -98,6 +98,32 @@
     }
   }
 
+  @-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
   @keyframes scrollY {
     0% {
       transform: translateY(0)
@@ -18992,12 +19018,34 @@ iframe {
 }
 
 .LeftContent .logo a {
-    /* background-image: url(../assets/image/logo-6995bb1c.svg); */
-    background-image: url(../assets/image/logo_smgame.svg);
+    /* background-image: url(../assets/image/logo_smgame.svg); */
     background-repeat: no-repeat;
     width: 215px;
     height: 45px;
     display: block
+}
+
+.LeftContent .logo a img.bigLogo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.sportUse .LeftContent .logo a img.bigLogo,
+.sportUse .LeftContent.zoomOUT .logo a img.bigLogo {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.sportUse .LeftContent .logo a img.smallLogo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.LeftContent .logo a img.smallLogo,
+.LeftContent.zoomOUT .logo a img.smallLogo {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .LeftContent::-webkit-scrollbar {
@@ -19595,7 +19643,7 @@ iframe {
         margin-bottom: 0
     }
     .sportUse .LeftContent .logo a {
-        background-image: url(../assets/image/logo02.svg);
+        /* background-image: url(../assets/image/logo02.svg); */
         background-repeat: no-repeat;
         width: 43px;
         height: 48px;
@@ -19633,7 +19681,8 @@ iframe {
         display: none
     }
     .sportUse .rightContent {
-        padding-left: 80px
+        padding-left: 80px;
+        height: 100vh;
     }
 }
 
@@ -30817,5 +30866,16 @@ textarea {
   cursor: nwse-resize;
 }
 
+.scrollContent {
+    display: inline-block;
+    -webkit-animation-iteration-count: infinite; 
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+           animation-name: ticker;
+    -webkit-animation-duration: 40s;
+            animation-duration: 40s;
+}
 
 /* END HOME STYLE */

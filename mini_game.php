@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '004';
+  include('inc/versions.php');
 
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-  <title>SMGame Newtemplate V3</title>
+  <title>SMGame Newtemplate V3 :: Mini Game</title>
   <base href=".">
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -37,7 +37,7 @@
 								
 	 <!----CONTENT---->							
 								
-                                <div data-v-79613b41="" class="main_content MiniInnerBG miniGamePage" bis_skin_checked="1"><div class="miniGameZone" bis_skin_checked="1"><div class="miniGameWrapper" bis_skin_checked="1"><div class="title" bis_skin_checked="1"><div class="leftZone" bis_skin_checked="1"><span class="icon-iiconLogoB"></span><h4>SMGame</h4><span>미니 게임</span></div><div class="line" bis_skin_checked="1"></div></div><div class="content miniLobby" bis_skin_checked="1"><div class="leftFrame" bis_skin_checked="1"><div class="leftZone aniLogo01" bis_skin_checked="1"><div class="obj aniLogo" bis_skin_checked="1"></div></div></div><div class="rightZone" bis_skin_checked="1"><div class="txt" bis_skin_checked="1"><h2>SMGame MINI GAME</h2><p>여러 가지 클래식 미니 게임을 즐기십시오! 승리를 기다리는 다양한 복권배팅! 최신 추첨 결과를 한 눈에 볼 수 있습니다! 지금 행운의 숫자에 배팅하세요!</p></div><div class="btns" bis_skin_checked="1"><ul><li class="casinoFrame casino01"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniPowerBall"></span></div><div class="txt01" bis_skin_checked="1"><h2>파워볼</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li><li class="casinoFrame casino04"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniKenoLadder"></span></div><div class="txt01" bis_skin_checked="1"><h2>키노사다리</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li><li class="casinoFrame casino02"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniPowerLadder"></span></div><div class="txt01" bis_skin_checked="1"><h2>파워사다리</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li><li class="casinoFrame casino03"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniSpeedKeno"></span></div><div class="txt01" bis_skin_checked="1"><h2>스피드키노</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li></ul></div><div class="obj aniLogo02" bis_skin_checked="1"></div></div></div></div></div></div>
+                                <div data-v-79613b41="" class="main_content MiniInnerBG miniGamePage" bis_skin_checked="1"><div class="miniGameZone" bis_skin_checked="1"><div class="miniGameWrapper" bis_skin_checked="1"><div class="title" bis_skin_checked="1"><div class="leftZone" bis_skin_checked="1"><span class="icon-iiconLogoB"></span><h4><?=$site_name?></h4><span>미니 게임</span></div><div class="line" bis_skin_checked="1"></div></div><div class="content miniLobby" bis_skin_checked="1"><div class="leftFrame" bis_skin_checked="1"><div class="leftZone aniLogo01" bis_skin_checked="1"><div class="obj aniLogo" bis_skin_checked="1"></div></div></div><div class="rightZone" bis_skin_checked="1"><div class="txt" bis_skin_checked="1"><h2><?=$site_name?> MINI GAME</h2><p>여러 가지 클래식 미니 게임을 즐기십시오! 승리를 기다리는 다양한 복권배팅! 최신 추첨 결과를 한 눈에 볼 수 있습니다! 지금 행운의 숫자에 배팅하세요!</p></div><div class="btns" bis_skin_checked="1"><ul><li class="casinoFrame casino01"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniPowerBall"></span></div><div class="txt01" bis_skin_checked="1"><h2>파워볼</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li><li class="casinoFrame casino04"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniKenoLadder"></span></div><div class="txt01" bis_skin_checked="1"><h2>키노사다리</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li><li class="casinoFrame casino02"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniPowerLadder"></span></div><div class="txt01" bis_skin_checked="1"><h2>파워사다리</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li><li class="casinoFrame casino03"><div class="logo logoA" bis_skin_checked="1"><span class="ballMove icon-MiniSpeedKeno"></span></div><div class="txt01" bis_skin_checked="1"><h2>스피드키노</h2></div><div class="mask" bis_skin_checked="1"><div class="inner" bis_skin_checked="1"></div></div></li></ul></div><div class="obj aniLogo02" bis_skin_checked="1"></div></div></div></div></div></div>
 								
 								
  <!----CONTENT---->							

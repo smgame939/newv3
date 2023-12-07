@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '004';
+  include('inc/versions.php');
 
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-  <title>SMGame Newtemplate V3</title>
+  <title>SMGame Newtemplate V3 :: Live Casino</title>
   <base href=".">
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -38,7 +38,7 @@
                                             <div data-v-010c5d9e="" class="title">
                                                 <div data-v-010c5d9e="" class="leftZone">
                                                     <span data-v-010c5d9e="" class="icon-iiconLogoB"></span>
-                                                    <h4 data-v-010c5d9e="">SMGame</h4>
+                                                    <h4 data-v-010c5d9e=""><?=$site_name?></h4>
                                                     <span data-v-010c5d9e="">카지노</span>
 												</div>
                                                 <div data-v-010c5d9e="" class="line"></div>
@@ -48,7 +48,7 @@
                                                     <div data-v-010c5d9e="" class="leftZone aniLogo01"><div data-v-010c5d9e="" class="obj aniLogo"></div></div>
 												</div>
                                                 <div data-v-010c5d9e="" class="rightZone">
-                                                    <div data-v-010c5d9e="" class="txt"><h2 data-v-010c5d9e="">SMGame LIVE CASINO</h2></div>
+                                                    <div data-v-010c5d9e="" class="txt"><h2 data-v-010c5d9e=""><?=$site_name?> LIVE CASINO</h2></div>
                                                     <div data-v-010c5d9e="" class="btns">
                                                         <ul data-v-010c5d9e="">
                                                             <li data-v-010c5d9e="" class="casinoFrame" game-box="EvoReal">

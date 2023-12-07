@@ -1,13 +1,16 @@
 <?php
-// Get the current page name with extension
-$currentPage = basename($_SERVER['PHP_SELF']);
-
-// Remove the dot extension
-$pgName = pathinfo($currentPage, PATHINFO_FILENAME);
+  include('versions.php');
+  $currentPage = basename($_SERVER['PHP_SELF']);
+  $pgName = pathinfo($currentPage, PATHINFO_FILENAME);
 ?>
 <!-- Sidemenu -->
 <div data-v-79613b41="" class="LeftContent">
-          <div data-v-79613b41="" class="logo"><a data-v-79613b41="" href="index.php"></a></div>
+          <div data-v-79613b41="" class="logo">
+              <a data-v-79613b41="" href="index.php">
+                <img src="../assets/image/logo_<?=$site_name?>.svg?v=<?=$ver?>" class="bigLogo" alt="">
+                <img src="../assets/image/logo_<?=$site_name?>_s.svg?v=<?=$ver?>" class="smallLogo" alt="">
+              </a>
+          </div>
           <div data-v-79613b41="" class="scrollFrame">
             <div class="leftMenu">
               <ul>
@@ -32,7 +35,7 @@ $pgName = pathinfo($currentPage, PATHINFO_FILENAME);
                         alt=""></div>
                     <div class="txt">카지노</div>
                   </a></li>
-                <li class="menu04"><a href="javascript: void(0)" class="<?php echo $pgName === 'slot' ? 'active' : '' ?>"  aria-label="슬롯"><span
+                <li class="menu04"><a href="slot.php" class="<?php echo $pgName === 'slot' ? 'active' : '' ?>"  aria-label="슬롯"><span
                       class="icon-iiconSlote"></span>
                     <div class="hovePic"><img
                         src="/image/menu_slot.png"
@@ -65,7 +68,7 @@ $pgName = pathinfo($currentPage, PATHINFO_FILENAME);
             </div>
             <div class="leftMenu leftMenu01">
               <ul>
-                <li class="menu01"><a href="javascript: void(0)" class="" aria-label="공지"><span
+                <li class="menu01"><a href="notice.php" class="" aria-label="공지"><span
                       class="icon-iiconRing"></span>
                     <div class="txt">공지</div>
                   </a></li>

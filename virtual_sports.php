@@ -1,6 +1,6 @@
 <?php
 
-  $ver = '004';
+  include('inc/versions.php');
 
 ?>
 
@@ -10,7 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
-    <title>SMGame Newtemplate V3</title>
+    <title>SMGame Newtemplate V3 :: Virtual Sports</title>
     <base href=".">
     <meta name="renderer" content="webkit">
     <meta name="force-rendering" content="webkit">
@@ -43,7 +43,7 @@
                                         <div class="title">
                                             <div class="leftZone">
                                                 <span class="icon-iiconLogoB"></span>
-                                                <h4>SMGame</h4>
+                                                <h4><?=$site_name?></h4>
                                                 <span>가상스포츠</span>
                                             </div>
                                             <div class="line"></div>
@@ -56,7 +56,7 @@
                                             </div>
                                             <div class="rightZone">
                                                 <div class="txt">
-                                                    <h2>SMGame 가상스포츠</h2>
+                                                    <h2><?=$site_name?> 가상스포츠</h2>
                                                     <p>
                                                         가상스포츠는 실제 스포츠를 기반으로 한 이벤트, 토너먼트 및 게임 플레이의 수를 통해 리얼한 경험을 제공하는 것이 목표입니다. 저희는 배팅 관련 제일 리얼한 버추얼경험을 제공합니다.
                                                         또한, 저희 사이트에서 아웃라이트와 멀티배팅을 포함한 모든 메인 픽을 찾을 수 있습니다.

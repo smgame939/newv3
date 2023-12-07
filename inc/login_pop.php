@@ -17,7 +17,7 @@
                                 <div data-v-19390e9d="" data-v-2836fdb5-s="" class="inputFrame">
                                     <div data-v-19390e9d="" data-v-2836fdb5-s="" class="txtT">아이디</div>
                                     <div data-v-19390e9d="" data-v-2836fdb5-s="" class="input_content"><input data-v-19390e9d="" name="account" type="text" class="account txtColor010 bgColor09 bdColor03" placeholder="아이디" required="">
-                                        <div data-v-19390e9d="" data-v-2836fdb5-s="" class="check"><span data-v-19390e9d="" data-v-2836fdb5-s="" class="icon-iconCheck"></span></div><!---->
+                                        <div data-v-19390e9d="" data-v-2836fdb5-s="" class="check"></div><!---->
                                     </div>
                                 </div>
                                 <div data-v-19390e9d="" data-v-2836fdb5-s="" class="inputFrame">
@@ -25,7 +25,7 @@
                                     <div data-v-19390e9d="" data-v-2836fdb5-s="" class="input_content"><input data-v-19390e9d="" data-v-2836fdb5-s="" class="pw txtColor010 bgColor09 bdColor03" type="password" placeholder="비밀번호" name="password"><!----></div>
                                 </div>
                             </div>
-                            <div data-v-19390e9d="" data-v-2836fdb5-s="" class="input_group rem_check"><input data-v-19390e9d="" data-v-2836fdb5-s="" id="rem_check" type="checkbox" name="isRemember" value="true"><label data-v-19390e9d="" data-v-2836fdb5-s="" for="rem_check" class="rem_check">아이디저장</label></div>
+                            
                             <div data-v-19390e9d="" data-v-2836fdb5-s="" class="btnZone">
                                 <div data-v-19390e9d="" data-v-2836fdb5-s="" class="btnFrame"><button data-v-19390e9d="" data-v-2836fdb5-s="" type="submit" class="btn_p">로그인</button><button data-v-19390e9d="" data-v-2836fdb5-s="" type="button" class="btn_p goUnmember blueB">비회원 문의</button></div>
                                 <div data-v-19390e9d="" data-v-2836fdb5-s="" class="txtZone"><a data-v-19390e9d="" data-v-2836fdb5-s=""></a><a data-v-19390e9d="" data-v-2836fdb5-s="" href="javascript:void(0)" class="goREG">아직 계정이 없습니까?<span data-v-19390e9d="" data-v-2836fdb5-s="">여기에서 회원가입하기</span></a></div>
