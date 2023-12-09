@@ -18,7 +18,6 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="css/live_casino.css?v=<?php echo $ver; ?>" />
     <link rel="stylesheet" href="css/newv3.css?v=<?php echo $ver; ?>">
     <link rel="stylesheet" href="css/slot.css?v=<?php echo $ver; ?>">
     <link rel="stylesheet" href="css/swiper-sm.css">

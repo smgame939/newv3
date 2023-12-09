@@ -1,6 +1,6 @@
 <div data-v-2836fdb5="" data-v-ad679d4d="" class="vfm vfm--inset vfm--fixed" style="z-index: 1000;"><!--v-if-->
     <div data-v-2836fdb5="" class="vfm__container vfm--absolute vfm--inset vfm--outline-none NAV_reg" aria-expanded="true" role="dialog" aria-modal="true" tabindex="-1" style="">
-        <div data-v-2836fdb5="" class="vfm__content pupop_content pupop_registered fadeIn">
+        <div data-v-2836fdb5="" class="vfm__content pupop_content pupop_registered fadeIn animated">
             <h5 data-v-ad679d4d="" data-v-2836fdb5-s="" class="XX"><span data-v-ad679d4d="" data-v-2836fdb5-s="" class="icon-iconCross" id="closePop"></span></h5>
             <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="reg relative backface-hidden">
                 <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="topFrame">
@@ -22,7 +22,7 @@
                                                 </div>
                                                 <div data-v-581a52bf="" class="input-inner-all">
                                                     <div data-v-581a52bf="" class="input_content btnUse"><input data-v-ad679d4d="" type="text" name="account" placeholder="아이디 (영문, 숫자 포함 4자 이상)" class="">
-                                                        <div data-v-ad679d4d="" class="checkUse ko-KR-member"><span data-v-ad679d4d="" class="icon-icconCHECK"></span><button data-v-ad679d4d="" type="button" class="regBtn blueB">중복</button></div><!---->
+                                                        <div data-v-ad679d4d="" class="checkUse ko-KR-member"><button data-v-ad679d4d="" type="button" class="regBtn blueB">중복</button></div><!---->
                                                         <div data-v-ad679d4d="" class="hint" style="display: none;">
                                                             <div data-v-ad679d4d="" class="txt">계정등록이 가능합니다.</div>
                                                         </div>
@@ -37,7 +37,7 @@
                                                 </div>
                                                 <div data-v-581a52bf="" class="input-inner-all">
                                                     <div data-v-581a52bf="" class="input_content"><input data-v-ad679d4d="" type="text" placeholder="숫자만 입력가능" class="" name="mobile">
-                                                        <div data-v-ad679d4d="" class="checkUse"><span data-v-ad679d4d="" class="icon-icconCHECK"></span><!----></div><!---->
+                                                        <div data-v-ad679d4d="" class="checkUse"><!----></div><!---->
                                                     </div>
                                                 </div>
                                             </div>
@@ -55,15 +55,15 @@
                                                         <h5 data-v-ad679d4d="">비밀번호는 아래의 조건이 포함되어야 합니다 :</h5>
                                                         <div data-v-ad679d4d="" class="checkFrame">
                                                             <div data-v-ad679d4d="" class="checkZone">
-                                                                <div data-v-ad679d4d="" class="dot"><span data-v-ad679d4d="" class="icon-icconCHECK"></span></div>
+                                                                <div data-v-ad679d4d="" class="dot"></div>
                                                                 <h5 data-v-ad679d4d="">최소 6자, 최대 16자</h5>
                                                             </div>
                                                             <div data-v-ad679d4d="" class="checkZone">
-                                                                <div data-v-ad679d4d="" class="dot"><span data-v-ad679d4d="" class="icon-icconCHECK"></span></div>
+                                                                <div data-v-ad679d4d="" class="dot"></div>
                                                                 <h5 data-v-ad679d4d="">영숫자 조합</h5>
                                                             </div>
                                                             <div data-v-ad679d4d="" class="checkZone">
-                                                                <div data-v-ad679d4d="" class="dot"><span data-v-ad679d4d="" class="icon-icconCHECK"></span></div>
+                                                                <div data-v-ad679d4d="" class="dot"></div>
                                                                 <h5 data-v-ad679d4d="">(선택)특수기호!@#$%^&amp;*()+_</h5>
                                                             </div>
                                                         </div>
@@ -78,7 +78,7 @@
                                                 </div>
                                                 <div data-v-581a52bf="" class="input-inner-all">
                                                     <div data-v-581a52bf="" class="input_content btnUse01"><input data-v-ad679d4d="" type="text" placeholder="통신사선택" readonly="" class="" name="mobileCarrier">
-                                                        <div data-v-ad679d4d="" class="checkUse ko-KR-choose"><span data-v-ad679d4d="" class="icon-icconCHECK"></span><button data-v-ad679d4d="" type="button" class="regBtn goCarrier blueB">선택</button></div><!---->
+                                                        <div data-v-ad679d4d="" class="checkUse ko-KR-choose"><button data-v-ad679d4d="" type="button" class="regBtn goCarrier blueB">선택</button></div><!---->
                                                     </div>
                                                 </div>
                                             </div>
@@ -106,7 +106,7 @@
                                                             <li data-v-ad679d4d="" data-v-2836fdb5-s="" class="male"><input data-v-ad679d4d="" data-v-2836fdb5-s="" id="male" type="radio" name="sex" value="true"><label data-v-ad679d4d="" data-v-2836fdb5-s="" for="male">남</label></li>
                                                             <li data-v-ad679d4d="" data-v-2836fdb5-s="" class="female"><input data-v-ad679d4d="" data-v-2836fdb5-s="" id="female" type="radio" name="sex" value="false"><label data-v-ad679d4d="" data-v-2836fdb5-s="" for="female">여</label></li>
                                                         </ul><!---->
-                                                        <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="checkUse"><span data-v-ad679d4d="" data-v-2836fdb5-s="" class="icon-icconCHECK"></span></div>
+                                                        <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="checkUse"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,7 +156,7 @@
                                                 </div>
                                                 <div data-v-581a52bf="" class="input-inner-all">
                                                     <div data-v-581a52bf="" class="input_content btnUse01"><input data-v-ad679d4d="" type="text" placeholder="입금은행 선택" readonly="" class="" name="bankName">
-                                                        <div data-v-ad679d4d="" class="checkUse ko-KR-choose"><span data-v-ad679d4d="" class="icon-icconCHECK"></span><button data-v-ad679d4d="" type="button" class="regBtn goBank blueB">선택</button></div><!---->
+                                                        <div data-v-ad679d4d="" class="checkUse ko-KR-choose"><button data-v-ad679d4d="" type="button" class="regBtn goBank blueB">선택</button></div><!---->
                                                     </div>
                                                 </div>
                                             </div>
@@ -188,7 +188,7 @@
                                 </div>
                             </div>
                             <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="btnFrame"><button data-v-ad679d4d="" data-v-2836fdb5-s="" type="submit" class="btn_p disableBtn">회원가입</button>
-                                <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="txtZone"><a data-v-ad679d4d="" data-v-2836fdb5-s=""></a><a data-v-ad679d4d="" data-v-2836fdb5-s="" href="javascript:void(0)" class="goLogin">이미 계정이 있습니까?<span data-v-ad679d4d="" data-v-2836fdb5-s="">여기에서 로그인 하기</span></a></div>
+                                <div data-v-ad679d4d="" data-v-2836fdb5-s="" class="txtZone"><a data-v-ad679d4d="" data-v-2836fdb5-s=""></a><a data-v-ad679d4d="" data-v-2836fdb5-s="" href="javascript:void(0)" class="goLogin">이미 계정이 있습니까?<span data-v-ad679d4d="" data-v-2836fdb5-s="" onclick="$('#loginBtn').click()">여기에서 로그인 하기</span></a></div>
                             </div>
                         </div>
                     </div>

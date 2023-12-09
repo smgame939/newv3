@@ -1,3 +1,19 @@
+<?php 
+    include_once('class/mobiledetect.class.php');
+    include('inc/versions.php');
+    $mdetect = new MobileDetect();
+    
+    if($mdetect->isMobile()) { 
+?>
+
+<header data-v-77826c5e="" data-v-c6087bcb="" id="header">
+          <div data-v-77826c5e="" class="mask" style="display: none;"></div>
+          <div data-v-77826c5e="" class="wrapper"><a data-v-77826c5e="" class="icon-left-menu"><span data-v-77826c5e="" class="icon-nav2"></span></a><a data-v-77826c5e="" class="guestmail">비회원 문의</a><a data-v-77826c5e="" class="logo"><img data-v-77826c5e="" src="./index_mobile_files/logo-e8d7a652.svg" alt="logo"></a>
+            <div data-v-77826c5e="" class="btn-box"><button data-v-77826c5e="" class="signup-btn">회원가입</button><button data-v-77826c5e="" class="login-btn">로그인</button></div><!----><!---->
+          </div>
+        </header>
+
+<?php } else { ?>
 <div data-v-5645eacc="" data-v-79613b41="">
     <div data-v-5645eacc="" class="header headerSuccess">
         <div data-v-5645eacc="" class="headerWrapper v_deep_header">
@@ -49,3 +65,4 @@
     </div>
 </div>
 
+<?php } ?>

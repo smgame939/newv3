@@ -28,7 +28,7 @@
                             
                             <div data-v-19390e9d="" data-v-2836fdb5-s="" class="btnZone">
                                 <div data-v-19390e9d="" data-v-2836fdb5-s="" class="btnFrame"><button data-v-19390e9d="" data-v-2836fdb5-s="" type="submit" class="btn_p">로그인</button><button data-v-19390e9d="" data-v-2836fdb5-s="" type="button" class="btn_p goUnmember blueB">비회원 문의</button></div>
-                                <div data-v-19390e9d="" data-v-2836fdb5-s="" class="txtZone"><a data-v-19390e9d="" data-v-2836fdb5-s=""></a><a data-v-19390e9d="" data-v-2836fdb5-s="" href="javascript:void(0)" class="goREG">아직 계정이 없습니까?<span data-v-19390e9d="" data-v-2836fdb5-s="">여기에서 회원가입하기</span></a></div>
+                                <div data-v-19390e9d="" data-v-2836fdb5-s="" class="txtZone"><a data-v-19390e9d="" data-v-2836fdb5-s=""></a><a data-v-19390e9d="" data-v-2836fdb5-s="" class="goREG">아직 계정이 없습니까?<span data-v-19390e9d="" data-v-2836fdb5-s="" onclick="$('#regBtn').click()">여기에서 회원가입하기</span></a></div>
                             </div>
                         </div>
                     </form>

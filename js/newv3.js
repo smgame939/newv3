@@ -29,6 +29,7 @@ $(document).ready(function () {
         });
     }
 
+    // Index page dynamic on hover content
     $("[class^=s]").on('mouseenter', function () {
         var classAttribute = $(this).attr('class');
 
@@ -45,20 +46,26 @@ $(document).ready(function () {
         }
     });
 
+    // POPUP LOGIN
     $('#loginBtn').on('click', function () {
+        $('#login-container').empty();
         $('#login-container').load('/inc/login_pop.php', function () {
             $('#closePop').on('click', function () {
                 $('#login-container').empty();
             });
         });
     });
+
+    // POPUP REGISTER
     $('#regBtn').on('click', function () {
+        $('#login-container').empty();
         $('#login-container').load('/inc/reg_pop.php', function () {
             $('#closePop').on('click', function () {
                 $('#login-container').empty();
             });
         });
     });
+    // POPUP CONTACT
     $('#contactBtn').on('click', function () {
         $('#login-container').load('/inc/contact_pop.php', function () {
             $('#closePop').on('click', function () {
@@ -67,11 +74,13 @@ $(document).ready(function () {
         });
     });
 
+    // SLOT PAGE 'show more' provider button
     $('.arrow-zone').on('click', function () {
         $(this).toggleClass('arrowGO');
         $('.all-game').toggle();
     });
 
+    // SLOT PAGE hover effect for providers
     $('.all-3party ul li').on('mouseenter', function () {
         $(this).children('.pic').addClass('aniTab');
     });
@@ -88,6 +97,52 @@ $(document).ready(function () {
         $(this).children('.pic').removeClass('aniTab');
     });
 
+    // Collapsible content
+    // SPORTS
+    $('.cube > .titleS').on('click', function () {
+        $(this).siblings('div').toggle();
+        $(this).find('.arrowT').toggleClass('arrowGO');
+    });
+    // LIVE SPORTS - left side
+    $('.cube01 > .title').on('click', function () {
+        $(this).siblings('.frameALL').toggle();
+        $(this).find('.arrowT').toggleClass('arrowGO');
+    });
+    // LIVE SPORTS - right side
+    $('.bZone > .title').on('click', function () {
+        $(this).siblings('.content').toggle();
+        $(this).find('.arrowW').toggleClass('arrowGO');
+    });
+
+    // FOR MOBILE
+    function isElementInViewport(elem) {
+        var $elem = $(elem);
+        var targetWindow =  $('#home-scroll-container');
+        var windowFromTop = targetWindow.offset().top;
+        var elementTop = $elem.offset().top;
+
+        return elementTop <= (windowFromTop + 5);
+      }
+
+      // Function to handle scroll events
+      function handleScroll() {
+        $('[id^="nav-"]').each(function() {
+          var navIdNumber = this.id.split('-')[1];
+          var tabId = 'tab-' + navIdNumber;
+
+          if (isElementInViewport(this)) {
+            $('#' + tabId).addClass('active');
+          } else {
+            $('#' + tabId).removeClass('active');
+          }
+        });
+      }
+
+      // Attach the scroll event handler
+      $('#home-scroll-container').on('scroll', handleScroll);
+
+      // Initial check in case elements are already in view on page load
+      handleScroll();
 });
 
 
