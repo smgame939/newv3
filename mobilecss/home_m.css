@@ -1110,3 +1110,34 @@ section.pot .wrapper .mem-btn button span.hint {
     white-space: nowrap;
     font-size: .81rem
 }
+
+#home-navigation .tab-type .menu-item > a[aria-label="Live"] > .icon > img {
+    content: url('../assets/image/Live.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Live"] > .icon > img {
+    content: url('../assets/image/Live-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="Slot"] > .icon > img {
+    content: url('../assets/image/Slot.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Slot"] > .icon > img {
+    content: url('../assets/image/Slot-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="Sport"] > .icon > img {
+    content: url('../assets/image/Sport.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Sport"] > .icon > img {
+    content: url('../assets/image/Sport-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="Lottery"] > .icon > img {
+    content: url('../assets/image/Lottery.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Lottery"] > .icon > img {
+    content: url('../assets/image/Lottery-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="VSport"] > .icon > img {
+    content: url('../assets/image/VSport.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="VSport"] > .icon > img {
+    content: url('../assets/image/VSport-active.png');
+}

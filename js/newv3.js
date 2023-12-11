@@ -115,34 +115,21 @@ $(document).ready(function () {
     });
 
     // FOR MOBILE
-    function isElementInViewport(elem) {
-        var $elem = $(elem);
-        var targetWindow =  $('#home-scroll-container');
-        var windowFromTop = targetWindow.offset().top;
-        var elementTop = $elem.offset().top;
+    $('[id^="tab-"]').on('click', function () {
+        var scWindow = $('#home-scroll-container');
+        var windowFromTop = scWindow.offset().top;
 
-        return elementTop <= (windowFromTop + 5);
-      }
+        var tabNum = this.id.replace('tab-', '');
+        var firstNavElem = $('#nav-' + tabNum + ':first');
+        
+        scWindow.scrollTop(0);
+        var firstNavPos = firstNavElem.offset().top;
+        scWindow.scrollTop(firstNavPos - windowFromTop);
 
-      // Function to handle scroll events
-      function handleScroll() {
-        $('[id^="nav-"]').each(function() {
-          var navIdNumber = this.id.split('-')[1];
-          var tabId = 'tab-' + navIdNumber;
-
-          if (isElementInViewport(this)) {
-            $('#' + tabId).addClass('active');
-          } else {
-            $('#' + tabId).removeClass('active');
-          }
-        });
-      }
-
-      // Attach the scroll event handler
-      $('#home-scroll-container').on('scroll', handleScroll);
-
-      // Initial check in case elements are already in view on page load
-      handleScroll();
+        $('[id^="tab-"]').removeClass('active');
+        $(this).addClass('active');
+        
+    });
 });
 
 

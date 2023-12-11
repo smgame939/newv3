@@ -147,7 +147,7 @@
                     <div id="home-navigation" class="maingame-box home-navigation">
                         <ul class="tab-type">
                             <li id="tab-0" class="menu-item active"><a aria-label="Live">
-                                    <div class="icon"><img src="assets/image/Live-active.png" alt=""></div>
+                                    <div class="icon"><img src="assets/image/Live.png" alt=""></div>
                                     <div class="tab-name">카지노</div>
                                 </a></li>
                             <li id="tab-1" class="menu-item"><a aria-label="Slot">
