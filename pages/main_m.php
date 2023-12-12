@@ -1,130 +1,27 @@
 <div id="app" data-v-app="" class="webp">
     <div>
-        <nav data-v-c6087bcb="" class="slide-content-left"><!----><!---->
-            <ul class="main-menu">
-                <li><a href="javascript: void(0)" aria-label="Live">
-                        <div class="icon"><img src="/assets/image/Live.png" alt=""></div>
-                        <div class="txt">카지노</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="Game">
-                        <div class="icon"><img src="/assets/image/Slot.png" alt=""></div>
-                        <div class="txt">슬롯</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="LiveSport">
-                        <div class="icon"><img src="/assets/image/Sport.png" alt=""></div>
-                        <div class="txt">스포츠실시간</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="EuropeanSport">
-                        <div class="icon"><img src="/assets/image/Sport.png" alt=""></div>
-                        <div class="txt">스포츠</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="MiniGame">
-                        <div class="icon"><img src="/assets/image/Lottery.png" alt=""></div>
-                        <div class="txt">미니게임</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="VirtualSports">
-                        <div class="icon"><img src="/assets/image/VSport.png" alt=""></div>
-                        <div class="txt">가상게임</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="promotion">
-                        <div class="icon"><img src="/assets/image/Event-e11e12f4.png" alt=""></div>
-                        <div class="txt">이벤트</div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label="advertisement">
-                        <div class="icon"><img src="/assets/image/adLink-920b4b88.png" alt=""></div>
-                        <div class="txt">ad</div>
-                    </a></li>
-            </ul>
-            <ul class="main-other-menu">
-                <li><a href="javascript: void(0)" aria-label="공지"><!----><span class="icon-notice"></span>
-                        <div>공지</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="베팅규정"><!----><span class="icon-betrule"></span>
-                        <div>베팅규정</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="쪽지"><!----><span class="icon-inbox"></span>
-                        <div>쪽지 (<span>0</span>) </div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="마이페이지"><!----><span class="icon-mypage"></span>
-                        <div>마이페이지</div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label="토너먼트">
-                        <div class="new-tag" style="display: none;"> New </div><span class="icon-rank"></span>
-                        <div>토너먼트</div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label="지인추천"><!----><span class="icon-referral"></span>
-                        <div>지인추천</div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label="출석부"><!----><span class="icon-signbonus"></span>
-                        <div>출석부</div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label="럭키 휠"><!----><span class="icon-roulette"></span>
-                        <div>럭키 휠</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="쿠폰함"><!----><span class="icon-couponbox"></span>
-                        <div>쿠폰함 (<span>0</span>) </div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label="마켓"><!----><span class="icon-mall"></span>
-                        <div>마켓</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="입금"><!----><span class="icon-deposit"></span>
-                        <div>입금</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="출금"><!----><span class="icon-withdraw"></span>
-                        <div>출금</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="베팅내역"><!----><span class="icon-betlist"></span>
-                        <div>베팅내역</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="포인트 내역"><!----><span class="icon-point"></span>
-                        <div>포인트 내역</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="잔액내역"><!----><span class="icon-balance"></span>
-                        <div>잔액내역</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="고객센터"><!----><span class="icon-customer"></span>
-                        <div>고객센터</div>
-                    </a></li>
-                <li><a href="javascript: void(0)" aria-label="공식채널 텔레그램"><!----><span class="icon-tg"></span>
-                        <div>공식채널 텔레그램</div>
-                    </a></li>
-                <li style="display: none;"><a href="javascript: void(0)" aria-label=""><!----><span class="icon-tg"></span>
-                        <div></div>
-                    </a></li><!---->
-            </ul>
-            <div class="language select-box"><select name="language">
-                    <option disabled="" value="">언어선택</option>
-                    <option value="ko-KR">한국어</option>
-                    <option value="zh-CN">简体中文</option>
-                    <option value="en-US">English</option>
-                </select></div>
-        </nav>
+        <?php include('inc/sidemenu_m.php'); ?>
         <section data-v-c6087bcb="" id="out-wrapper" class="home"><!---->
-            <header data-v-77826c5e="" data-v-c6087bcb="" id="header">
-                <div data-v-77826c5e="" class="mask" style="display: none;"></div>
-                <div data-v-77826c5e="" class="wrapper"><a data-v-77826c5e="" class="icon-left-menu"><span data-v-77826c5e="" class="icon-nav2"></span></a><a data-v-77826c5e="" class="guestmail">비회원 문의</a><a data-v-77826c5e="" class="logo"><img data-v-77826c5e="" src="/assets/image/logo_smgame.svg" alt="logo"></a>
-                    <div data-v-77826c5e="" class="btn-box"><button data-v-77826c5e="" class="signup-btn">회원가입</button><button data-v-77826c5e="" class="login-btn">로그인</button></div><!----><!---->
-                </div>
-            </header>
+            <?php include('inc/header_m.php'); ?>
             <section data-v-c6087bcb="" id="content" class="">
                 <section data-v-3c9934e2="">
                     <div data-v-e4162f67="" data-v-3c9934e2="" class="banner" style="opacity: 1;">
-                        <div data-v-e4162f67="" class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-ios swiper-watch-progress swiper-backface-hidden" scrollspy="false">
-                            <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms;">
-                                <div data-v-e4162f67="" class="swiper-slide swiper-slide-next" data-swiper-slide-index="4" style="transform: translate3d(0px, 0px, 0px); width: 390px; opacity: 1; transition-duration: 0ms;">
-                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="https://img2.kwebcdn.com/Web.Portal/KR001/Upload/SlideShow/3079d6b651e54938815ebfb8c55a4f98.webp" alt="Image 4"></div><!---->
+                        <div data-v-e4162f67="" class="swiper swiper_mobile">
+                            <div class="swiper-wrapper">
+                                <div data-v-e4162f67="" class="swiper-slide">
+                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="image/banner/3079d6b651e54938815ebfb8c55a4f98.webp" alt="Image 4"></div><!---->
                                 </div>
-                                <div data-v-e4162f67="" class="swiper-slide" data-swiper-slide-index="0" style="transform: translate3d(-390px, 0px, 0px); width: 390px; opacity: 1; transition-duration: 0ms;">
-                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="https://img2.kwebcdn.com/Web.Portal/KR001/Upload/SlideShow/845a805cee5b4c8d88746170d027660e.webp" alt="Image 0"></div><!---->
+                                <div data-v-e4162f67="" class="swiper-slide">
+                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="image/banner/845a805cee5b4c8d88746170d027660e.webp" alt="Image 0"></div><!---->
                                 </div>
-                                <div data-v-e4162f67="" class="swiper-slide" data-swiper-slide-index="1" style="transform: translate3d(-780px, 0px, 0px); width: 390px; opacity: 1; transition-duration: 0ms;">
-                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="https://img2.kwebcdn.com/Web.Portal/KR001/Upload/SlideShow/ea8c23c9039445729fe4962eeddcf0c5.webp" alt="Image 1"></div><!---->
+                                <div data-v-e4162f67="" class="swiper-slide">
+                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="image/banner/ea8c23c9039445729fe4962eeddcf0c5.webp" alt="Image 1"></div><!---->
                                 </div>
-                                <div data-v-e4162f67="" class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="transform: translate3d(-1170px, 0px, 0px); width: 390px; opacity: 1; transition-duration: 0ms;">
-                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="https://img2.kwebcdn.com/Web.Portal/KR001/Upload/SlideShow/d1a61fbf9dd14bcbba64a8045adf6b7f.webp" alt="Image 2"></div><!---->
+                                <div data-v-e4162f67="" class="swiper-slide">
+                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="image/banner/d1a61fbf9dd14bcbba64a8045adf6b7f.webp" alt="Image 2"></div><!---->
                                 </div>
-                                <div data-v-e4162f67="" class="swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="3" style="transform: translate3d(-1560px, 0px, 0px); width: 390px; opacity: 1; transition-duration: 0ms;">
-                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="https://img2.kwebcdn.com/Web.Portal/KR001/Upload/SlideShow/f6c8be722e734ddf80db9c054f7bb232.webp" alt="Image 3"></div><!---->
+                                <div data-v-e4162f67="" class="swiper-slide">
+                                    <div data-v-e4162f67="" class="third-image"><img data-v-e4162f67="" class="swiper-lazy" src="image/banner/f6c8be722e734ddf80db9c054f7bb232.webp" alt="Image 3"></div><!---->
                                 </div>
                             </div><!----><!----><!----><!---->
                         </div>
@@ -319,25 +216,7 @@
                 </section>
             </section>
             <div data-v-c6087bcb="" id="promotion"></div>
-            <footer data-v-c6087bcb="" id="footer" class="touch-none">
-                <ul>
-                    <li class=""><a href="javascript:;" aria-label="입금"><span class="icon-deposit"></span>
-                            <div>입금</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="출금"><span class="icon-withdraw"></span>
-                            <div>출금</div>
-                        </a></li>
-                    <li class="active"><a href="javascript:;" aria-label="홈"><span class="icon-home"></span>
-                            <div>홈</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="이벤트"><span class="icon-event"></span>
-                            <div>이벤트</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="고객센터"><span class="icon-customer"></span>
-                            <div>고객센터</div>
-                        </a></li>
-                </ul>
-            </footer><!---->
+            <?php include('inc/footer_m.php'); ?>
         </section><!----><!----><!---->
         <div data-v-2836fdb5="" data-v-c6087bcb="" class="vfm vfm--inset vfm--fixed" show-modal="false" style="z-index: 1000; display: none;"><!--v-if-->
             <div data-v-2836fdb5="" class="vfm__container vfm--absolute vfm--inset vfm--outline-none model-main popup-guestmail model-open" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">
@@ -384,6 +263,7 @@
                 </div>
             </div>
         </div><img data-v-c6087bcb="" src="?0.44800393131378824" style="display: none;"><!----><!---->
+        <div id="login-container"></div>
     </div>
     <div class="modals-container"></div>
 </div>

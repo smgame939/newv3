@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     var currentPage = window.location.pathname.split('/').pop().split('.').slice(0, -1).join('.');
 
-    if (currentPage == 'index' || currentPage == 'slot' || currentPage == 'footer') {
+    if (currentPage == 'index' || currentPage == '' || currentPage == 'slot' || currentPage == 'live_casino' || currentPage == 'footer') {
         var swiper = new Swiper(".banner_swiper", {
             spaceBetween: 30,
             centeredSlides: true,
@@ -25,6 +25,15 @@ $(document).ready(function () {
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var swiper2 = new Swiper(".swiper_mobile", {
+            spaceBetween: 30,
+            effect: "fade",
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
             },
         });
     }
@@ -130,6 +139,32 @@ $(document).ready(function () {
         $(this).addClass('active');
         
     });
+
+    $('.icon-left-menu').on('click', function() {
+        toggleSideMobile();
+    });
+
+    function toggleSideMobile() {
+        $('nav.slide-content-left').toggleClass('is-visible-left');
+        $('#out-wrapper').toggleClass("is-obscured-left left fixed");
+    }
+
+    function hideSideMobile() {
+        $('nav.slide-content-left').removeClass('is-visible-left');
+        $('#out-wrapper').removeClass("is-obscured-left left fixed");
+    }
+  
+    // Select the target element
+    var targetElement = $('.icon-left-menu');
+
+    // Attach a click event to the document
+    $('#content').on('click', function() {
+        hideSideMobile();
+    });
+    $('#footer').on('click', function() {
+        hideSideMobile();
+    });
+     
 });
 
 

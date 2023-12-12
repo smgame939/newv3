@@ -36,13 +36,13 @@
   <!-- MOBILE -->
   <?php 
     if($mdetect->isMobile()) { 
-      include('main_m.php'); 
+      include('pages/main_m.php'); 
     } else {
   ?>
   <!-- END MOBILE -->
   <!-- DESKTOP -->
   <?php 
-      include('main_pc.php'); 
+      include('pages/main_pc.php'); 
     }
   ?>
   <!-- END DESKTOP -->

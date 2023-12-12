@@ -863,7 +863,7 @@ nav {
     background-position: center;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url(/assets/left-menu-bg-a7d11061.png);
+    background-image: url(../assets/image/left-menu-bg-a7d11061.png);
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
@@ -898,13 +898,13 @@ nav {
 
 .slide-content-left ul.main-other-menu li a span {
     color: var(--txtColor14);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
-    margin: 0 2vw 0 4vw
+    margin: 0 3vw 0 1vw
 }
 
 .slide-content-left ul.main-other-menu li a div {
-    font-size: .72rem;
+    font-size: .9rem;
     color: var(--txtColor33);
     font-weight: 600
 }
@@ -2041,6 +2041,27 @@ button.btnColor03 {
     height: 10vw;
     padding: 2vw 0 2vw 2vw;
     font-size: .86rem
+}
+
+.input-area .input-list.security {
+    display: flex;
+    gap: 4px;
+}
+
+.input-area .input-list.security .list.sec_key {
+    width: 70%;
+}
+.input-area .input-list.security .list.gen_key {
+    width: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    background: #1b4eab;
+    color: white;
+}
+.input-area .input-list.security .list.gen_key:focus {
+    border-bottom: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 .btm-hint-txt {
@@ -4352,11 +4373,13 @@ textarea,
 select {
     color: var(--txtColor05);
     outline: none;
-    border: 0px solid;
+    border: 0px solid !important;
     box-shadow: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none
+    appearance: none;
+    box-sizing: border-box !important;
+    margin: 0 !important;
 }
 
 input[type=text]:focus,
@@ -5096,7 +5119,8 @@ button.disable {
 }
 
 button:focus {
-    outline: none
+    outline: none;
+    background: none;
 }
 
 button.btnColor10 {
@@ -8661,6 +8685,10 @@ html,
     content: ""
 }
 
+.icon-login2:before {
+    content: "\e982"
+}
+
 .icon-mail-read-no:before {
     content: ""
 }
@@ -9047,4 +9075,362 @@ html,
         bottom: 56px !important;
         z-index: 10 !important
     }
+}
+
+.modal-content {
+    pointer-events: none;
+}
+
+.model-open .model-inner {
+    position: relative;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0);
+    z-index: 999;
+}
+
+.modal-content .model-inner {
+    pointer-events: initial;
+}
+
+.popup-login .model-inner {
+    width: 75vw;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.modal-fade-in {
+    -webkit-transition: none;
+    -o-transition: none;
+    -moz-transition: none;
+    transition: none;
+    -webkit-animation: mover .3s;
+    -moz-animation: mover .3s;
+    -o-animation: mover .3s;
+    animation: mover .3s;
+}
+
+.model-inner {
+    -webkit-transform: translate(0,-25%);
+    -ms-transform: translate(0,-25%);
+    -moz-transform: translate(0,-25%);
+    -o-transform: translate(0,-25%);
+    transform: translateY(-25%);
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: -webkit-transform .2s ease-out;
+    transition: -webkit-transform .2s ease-out;
+    -o-transition: -o-transform .2s ease-out;
+    -moz-transition: transform .2s ease-out,-moz-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out,-webkit-transform .2s ease-out,-moz-transform .2s ease-out,-o-transform .2s ease-out;
+}
+.signup-content,
+.login-content {
+    background: var(--bgColor_Grad06-00);
+    background: -webkit-linear-gradient(top,var(--bgColor_Grad06-00) 1%,var(--bgColor_Grad06-01) 100%);
+    background: -moz-linear-gradient(top,var(--bgColor_Grad06-00) 1%,var(--bgColor_Grad06-01) 100%);
+    background: -o-linear-gradient(top,var(--bgColor_Grad06-00) 1%,var(--bgColor_Grad06-01) 100%);
+    background: linear-gradient(to bottom,var(--bgColor_Grad06-00) 1%,var(--bgColor_Grad06-01) 100%);
+    margin-top: 4rem;
+}
+.login-content {
+    padding: 8.6vw 8.8vw;
+}
+.signup-content {
+    padding-bottom: 1rem;
+}
+.close-btn {
+    position: absolute;
+    width: auto;
+    cursor: pointer;
+    z-index: 99;
+    top: 2.2vw;
+    right: 3.2vw;
+}
+
+.close-btn span {
+    color: var(--txtColor02);
+}
+
+.input-area .list .txt {
+    width: 8vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.input-area .list span {
+    position: relative;
+    color: var(--txtColor10);
+}
+
+.input-list-forget {
+    margin: 2vw 0 3vw;
+}
+
+.input-list-forget .styled-checkbox+label {
+    font-size: .81rem;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.input-list-forget .styled-checkbox+label span {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.bgbtn-box {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    line-height: 1.15;
+    font-family: Microsoft JhengHei,sans-serif;
+}
+
+.bgbtn-box button {
+    width: 100%;
+    height: 10vw;
+    font-size: .94rem;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.pop-up-content button.guestmail-button {
+    width: 49%;
+    background: var(--bgColor10);
+    color: var(--txtColor01);
+}
+
+.login-content button.login-button {
+    margin-bottom: 1vw;
+    background: var(--btnColor06);
+    color: var(--txtColor01);
+}
+
+.pop-up-content button.signupnow-button {
+    width: 49%;
+    margin-right: 2%;
+}
+
+.pop-up-content button.signupnow-button, .pop-up-content button.cancel-button {
+    color: var(--txtColor02);
+    background: var(--btnColor03);
+}
+
+[data-v-637aa9ef] .popup-signup .input-area .input-list {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0vw 3.8vw;
+    margin-bottom: 2vw;
+}
+
+[data-v-637aa9ef] .popup-signup .input-area .input-list {
+    padding: 0vw 3.8vw;
+    margin-bottom: 2vw;
+}
+
+[data-v-637aa9ef] .popup-signup .input-area .input-list .list-id {
+    width: 71vw;
+}
+
+[data-v-637aa9ef] .popup-signup .input-area .list {
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+}
+
+[data-v-637aa9ef] .signup-content .list {
+    padding: 0;
+}
+
+.input-area .list {
+    margin: 1vw 0;
+    font-size: .93rem;
+    padding: 0vw 2vw;
+    background: var(--bgColor01);
+    border: 1px solid var(--borderColor03);
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.input-area .list .txt {
+    width: 8vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+[data-v-637aa9ef] .popup-signup .input-area .list span {
+    padding: 0vw 2vw;
+    border-right: 1px solid var(--borderColor03);
+    color: var(--txtColor41);
+}
+
+.input-area .list span {
+    position: relative;
+    color: var(--txtColor10);
+}
+
+.input-area .list span em {
+    position: absolute;
+    top: -8px;
+    right: 3px;
+    color: var(--txtColor16);
+    font-weight: 700;
+    font-size: .65rem;
+}
+
+[data-v-637aa9ef] .signup-content .list input {
+    padding: 2vw;
+    border: 0px solid var(--borderColor05);
+}
+
+[data-v-637aa9ef] .signup-content .list .checkUse {
+    width: 3.6vw;
+    height: 3.6vw;
+    margin-right: 2.6vw;
+    background-repeat: no-repeat;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center left;
+    background-image: url(../assets/image/icconCheck01-e0dcb79c.svg);
+}
+
+[data-v-637aa9ef] .signup-content button.check-button {
+    width: 20vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: var(--btnColor16);
+    border: 0px solid var(--btnColor16);
+    color: var(--txtColor01);
+    font-size: .81rem;
+    height: 10vw;
+    padding: 1vw;
+    font-weight: 600;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: .93rem;
+}
+
+.signup-content .input-area {
+    padding-top: 4rem;
+}
+
+[data-v-637aa9ef] .signup-content .bgbtn-box {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 6vw;
+    padding: 0vw 3.8vw;
+}
+
+[data-v-637aa9ef] .signup-content button.signup-button {
+    background: var(--btnColor01);
+    color: var(--txtColor01);
+}
+
+[data-v-637aa9ef] .signup-content .bgbtn-box button {
+    width: 44.6vw;
+}
+
+.pop-up-content button.signupnow-button, .pop-up-content button.cancel-button {
+    color: var(--txtColor02);
+    background: var(--btnColor03);
 }
