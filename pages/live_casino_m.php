@@ -2,12 +2,7 @@
     <div><!---->
         <?php include('inc/sidemenu_m.php'); ?>
         <section data-v-c6087bcb="" id="out-wrapper" class=""><!---->
-            <header data-v-77826c5e="" data-v-c6087bcb="" id="header">
-                <div data-v-77826c5e="" class="mask" style="display: none;"></div>
-                <div data-v-77826c5e="" class="wrapper"><a data-v-77826c5e="" class="icon-left-menu"><span data-v-77826c5e="" class="icon-nav2"></span></a><a data-v-77826c5e="" class="guestmail">비회원 문의</a><a data-v-77826c5e="" class="logo"><img data-v-77826c5e="" src="assets/image/logo_smgame.svg" alt="logo"></a>
-                    <div data-v-77826c5e="" class="btn-box"><button data-v-77826c5e="" class="signup-btn">회원가입</button><button data-v-77826c5e="" class="login-btn">로그인</button></div><!----><!---->
-                </div>
-            </header>
+        <?php include('inc/header_m.php'); ?>
             <section data-v-c6087bcb="" id="content" class="">
                 <div data-v-e4162f67="" data-v-80df159d="" class="banner" style="opacity: 1;">
                     <div data-v-e4162f67="" class="swiper swiper_mobile">
@@ -196,7 +191,7 @@
                     </div><!--v-if-->
                 </div>
             </div>
-        </div><img data-v-c6087bcb="" src="./live_casino_mobile_files/saved_resource" style="display: none;"><!----><!---->
+        </div><!----><!---->
     </div>
     <div class="modals-container"></div>
 </div>

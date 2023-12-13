@@ -4,7 +4,7 @@
         <section data-v-c6087bcb="" id="out-wrapper" class=""><!---->
             <?php include('inc/header_m.php'); ?>
             <section data-v-c6087bcb="" id="content" class="">
-                <div data-v-d58e2dea="" data-v-c6087bcb="">
+                <div id="slot-list" data-v-d58e2dea="" data-v-c6087bcb="">
                     <div data-v-e4162f67="" data-v-d58e2dea="" class="banner" style="opacity: 1;">
                         <div data-v-e4162f67="" class="swiper swiper_mobile">
                             <div class="swiper-wrapper">
@@ -62,7 +62,7 @@
                                         <div data-v-d58e2dea="" class="btm-info">
                                             <div data-v-d58e2dea="" class="name">프래그마틱</div>
                                         </div>
-                                    </a><a data-v-d58e2dea="" href="javascript: void(0);" class="item-box provider-box">
+                                    </a><a data-v-d58e2dea="" href="javascript: void(0);" class="item-box provider-box slot-btn" id="microgaming">
                                         <div data-v-d58e2dea="" class="itme-bg"></div>
                                         <div data-v-d58e2dea="" class="itme-image" style="background-image: url(&quot;image/slot/logo/mobile/LightMgpHtml.png&quot;);"></div>
                                         <div data-v-d58e2dea="" class="btm-info">
@@ -375,12 +375,7 @@
         <div data-v-2836fdb5="" data-v-c6087bcb="" class="vfm vfm--inset vfm--fixed" show-modal="false" style="z-index: 1000; display: none;"><!--v-if-->
             <div data-v-2836fdb5="" class="vfm__container vfm--absolute vfm--inset vfm--outline-none model-main popup-guestmail model-open" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">
                 <div data-v-2836fdb5="" class="vfm__content">
-                    <header data-v-77826c5e="" data-v-2836fdb5-s="" id="header">
-                        <div data-v-77826c5e="" class="mask" style="display: none;"></div>
-                        <div data-v-77826c5e="" class="wrapper"><a data-v-77826c5e="" class="icon-left-menu"><span data-v-77826c5e="" class="icon-nav2"></span></a><a data-v-77826c5e="" class="guestmail">비회원 문의</a><a data-v-77826c5e="" class="logo"><img data-v-77826c5e="" src="./slot_mobile_files/logo-e8d7a652.svg" alt="logo"></a>
-                            <div data-v-77826c5e="" class="btn-box"><button data-v-77826c5e="" class="signup-btn">회원가입</button><button data-v-77826c5e="" class="login-btn">로그인</button></div><!----><!---->
-                        </div>
-                    </header>
+                    <?php include('inc/header_m.php'); ?>
                     <div data-v-2836fdb5-s="" class="model-inner">
                         <div data-v-2836fdb5-s="" class="model-wrap">
                             <div data-v-2836fdb5-s="" class="pop-up-content"><!---->
@@ -416,7 +411,7 @@
                     </div><!--v-if-->
                 </div>
             </div>
-        </div><img data-v-c6087bcb="" src="./slot_mobile_files/saved_resource" style="display: none;"><!----><!---->
+        </div><!----><!---->
         <div id="login-container"></div>
     </div>
     <div class="modals-container"></div>

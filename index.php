@@ -1,5 +1,4 @@
 <?php
-
   include_once('class/mobiledetect.class.php');
   include('inc/versions.php');
   $mdetect = new MobileDetect();

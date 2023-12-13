@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     var currentPage = window.location.pathname.split('/').pop().split('.').slice(0, -1).join('.');
 
-    if (currentPage == 'index' || currentPage == '' || currentPage == 'slot' || currentPage == 'live_casino' || currentPage == 'footer') {
+    if (currentPage == 'index' || currentPage == '' || currentPage == 'slot' || currentPage == 'mini_game' || currentPage == 'live_casino' || currentPage == 'footer') {
         var swiper = new Swiper(".banner_swiper", {
             spaceBetween: 30,
             centeredSlides: true,
@@ -164,6 +164,34 @@ $(document).ready(function () {
     $('#footer').on('click', function() {
         hideSideMobile();
     });
+
+
+    // Slot Mobile
+    $(document).on('click', '.slot-btn', function(event) {
+        event.stopPropagation();
+        
+        var game = $(this).attr('id');
+        // Use $.get() for a simpler GET request
+        $.get('/pages/slots/' + game + '.php', function(data) {
+          // Replace the content of the 'content' section with the loaded HTML
+          $('#content').html(data);
+        })
+        .fail(function(error) {
+          console.log('Error loading content:', error);
+        });
+      });
+
+      $(document).on('click', '#choose-provider', function(event) {
+        event.stopPropagation();
+        
+        $.get('/pages/slot_m.php', function(data) {
+            var slotListContent = $(data).find('#content').html();
+            $('#content').html(slotListContent);
+          })
+          .fail(function(error) {
+            console.log('Error loading content:', error);
+          });
+      });
      
 });
 
